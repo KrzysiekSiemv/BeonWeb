@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    font-family: 'GlacialIndifferenceRegular';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.nav {
+    background-color: rgb(45, 116, 180);
+    color: white;
+    padding: 24px 10%;
+    min-height: 128px;
+    text-align: center;
+}
+
+/* Początek strony */
+
+.intro {
+    float: right;
+    text-align: right;
+    width: 512px;    
+}
+
+.intro i {
+    font-size: 64px;
+    float: right;
+    margin-left: 16px;
+    color: black;
+}
+
+.intro p {
+    display: block;
+}
+
+.intro h3 {
+    font-size: 48px;
+}
+
+/* Menu */
+
+.menu {
+    background-color: rgb(45, 45, 45);
+    padding: 8px 10%;
+    color: white;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: black;
+}
+
+.menu a .active {
+    background-color: rgb(45, 116, 180);
+}
+
+/* Columns */
+
+.left-column {
+    width: 55%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 4px;
+}
+
+.right-column {
+    margin-left: 1%;
+    width: 24%;
+    float: left;
+    background-color: rgb(45,45,45);
+    padding: 4px 8px;
+    color: white;
+}
+
+/* Lewa kolumna */
+
+.post {
+    padding: 8px;
+    background-color: rgb(45,45,45);
+    margin-bottom: 8px;
+}
+
+    .post .author {
+        margin-bottom: 4px;
+        color: white;
+    }
+
+        .post .author img {
+            float: left;
+            height: 34px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .post .author .name {
+            text-decoration: none;
+            color: white;
+        }
+
+            .post .author .name:hover{
+                color: rgb(45, 116, 180);
+            }
+
+        .post .author .date {
+            font-size: 12px;
+        }
+
+    .post .line {
+        height: 2px;
+        width: 55%;
+        text-align: center;
+        padding: 1px;
+        margin-top: 16px;
+        margin: 4px 0px;
+        background-color: white;
+    }
+
+    .post .content {
+        color: white;
+        margin-bottom: 8px;
+    }
+
+        .post .content .title {
+            font-size: 36px;
+            margin-left: 8px;
+            font-weight: bold;
+        }
+
+        .post .content .image {
+            text-align: center;
+            margin: 4px;
+        }
+
+        .post .content .image img {
+            max-width: 65%;
+        }
+
+    .options {
+        color: white;
+    }
+
+        .options .button {
+            background-color: rgb(45, 116, 180);
+            min-width: 96px;
+            padding: 4px;
+            width: auto;
+            display: inline-flex;
+        }
+
+            .options .button i {
+                float: left;
+                font-size: 20px;
+                margin-right: 4px;
+            }
+
+            .options .button p {
+                float: left;
+                font-size: 16px;
+                margin-right: 4px;
+            }
+
+    .end {
+        text-align: center;
+        color: white;
+        padding: 8px;
+        background-color: rgb(45,45,45);
+        margin: 0px 25%;
+    }
+
+        .end i {
+            font-size: 24px;
+            float:left;
+            margin-bottom: 4px;
+        }
+
+        .end .text{
+            margin-bottom: 4px;
+        }
+
+/* Prawa kolumna */
+
+
+
+@media screen and (max-width:800px){
+
+}
