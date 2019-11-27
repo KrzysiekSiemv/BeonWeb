@@ -197,6 +197,7 @@ body {
   .profil .avatar {
     height: 256px;
     border-radius: 50%;
+    float: left;
   }
 
   .profil .nick {
