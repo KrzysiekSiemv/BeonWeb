@@ -189,8 +189,9 @@ body {
 /* Profil */
 
 .profil {
-  padding: 8px 10%;
+  margin: 8px 10%;
   background-color: rgb(45, 45, 45);
+  text-align: center;
   color: white;
 }
 
@@ -202,6 +203,8 @@ body {
 
   .profil .nick {
     font-size: 48px;
+    float: right;
+
   }
 
 /* Prawa kolumna */
